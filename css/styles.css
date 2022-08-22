@@ -55,7 +55,8 @@ body {
   text-decoration: none;
 }
 
-.navigation-item a:hover {
+.navigation-item a:hover,
+.navigation-item a:focus {
   color: var(--primary-color-hover);
 }
 
@@ -74,7 +75,8 @@ body {
   text-decoration: none;
 }
 
-.contact-item a:hover {
+.contact-item a:hover,
+.contact-item a:focus {
   color: var(--primary-color-hover);
   text-decoration: underline;
 }
@@ -249,7 +251,8 @@ body {
   text-decoration: none;
 }
 
-.footer-contact-item a:hover {
+.footer-contact-item a:hover,
+.footer-contact-item a:focus {
   color: var(--primary-color-hover);
   text-decoration: underline;
 }
@@ -281,7 +284,8 @@ body {
   margin-right: 8px;
 }
 
-.sort-buttons:hover {
+.sort-buttons:hover,
+.sort-buttons:focus {
   background-color: var(--primary-color-hover);
   cursor: pointer;
 }
